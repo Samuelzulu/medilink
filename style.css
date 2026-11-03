@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f5f7;
+  color: #222;
+  margin: 0;
+}
+header {
+  background: #3478a5;
+  color: white;
+  padding: 18px 30px;
+}
+header h1 { margin: 0; }
+header p { margin: 6px 0 0; }
+main { max-width: 800px; margin: 20px auto; padding: 0 15px; }
+section {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+h2 { margin-top: 0; }
+label { display: block; margin: 12px 0 5px; }
+input, select {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+button {
+  background: #3478a5;
+  color: white;
+  border: none;
+  padding: 9px 13px;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button:hover { background: #265c80; }
+.cancel { background: #b74444; margin: 8px 0 0; }
+.appointment { border-bottom: 1px solid #ddd; padding: 12px 0; }
+.appointment p { margin: 4px 0; }
+#message { font-weight: bold; }

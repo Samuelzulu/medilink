@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediLink - Appointments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MediLink</h1>
+    <p>Simple appointment booking system</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Book an Appointment</h2>
+      <form id="bookingForm">
+        <label for="patient">Patient name</label>
+        <input id="patient" type="text" required>
+
+        <label for="doctor">Practitioner</label>
+        <select id="doctor">
+          <option>Dr. Smith</option>
+          <option>Dr. Lee</option>
+          <option>Dr. Patel</option>
+        </select>
+
+        <label for="date">Date</label>
+        <input id="date" type="date" required>
+
+        <label for="time">Time</label>
+        <select id="time">
+          <option>09:00</option>
+          <option>10:00</option>
+          <option>11:00</option>
+          <option>13:00</option>
+          <option>14:00</option>
+          <option>15:00</option>
+        </select>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+      <p id="message" role="status"></p>
+    </section>
+
+    <section>
+      <h2>Clinic Appointments</h2>
+      <label for="filter">Filter by practitioner</label>
+      <select id="filter">
+        <option value="All">All practitioners</option>
+        <option>Dr. Smith</option>
+        <option>Dr. Lee</option>
+        <option>Dr. Patel</option>
+      </select>
+      <div id="appointments"></div>
+    </section>
+
+    <section>
+      <h2>Reminder Preview</h2>
+      <p>This is only a preview. No real text messages are sent.</p>
+      <button id="remindersButton" type="button">Show Upcoming Reminders</button>
+      <div id="reminders"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
