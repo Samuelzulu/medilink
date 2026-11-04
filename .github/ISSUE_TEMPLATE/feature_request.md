@@ -1,14 +1,24 @@
 ---
-name: Feature Request
+name: Feature request
 about: Propose a new MediLink feature or task
-title: '[FEAT] '
+title: "[FEATURE] "
 labels: enhancement
-assignees: ''
+assignees: ""
 ---
 
 ### User Story
-As a [User type], I want to [action] so that [benefit].
+As a [user type], I want [an action] so that [a benefit].
 
 ### Acceptance Criteria
-- [ ] Criterion 1
-- [ ] Criterion 2
+1. <!-- Describe a testable outcome. -->
+2. <!-- Describe another testable outcome. -->
+
+### Priority
+<!-- Select one: P0, P1, P2, P3 -->
+- [ ] P0
+- [ ] P1
+- [ ] P2
+- [ ] P3
+
+### Dependencies
+<!-- List related issues, prerequisites, or "None". -->
