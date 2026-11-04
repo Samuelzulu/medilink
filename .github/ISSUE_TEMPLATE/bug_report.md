@@ -1,22 +1,29 @@
 ---
-name: Bug Report
+name: Bug report
 about: Report a defect in the MediLink platform
-title: '[BUG]'
+title: "[BUG] "
 labels: bug
-assignees: ''
+assignees: ""
 ---
 
-### Problem Description
-<!-- Clear and concise description of the bug -->
+### Description
+<!-- Provide a clear and concise description of the bug. -->
 
 ### Steps to Reproduce
-1. Go to '...'
-2. Click on '...'
-3. See error
+1. <!-- First step -->
+2. <!-- Second step -->
+3. <!-- What happened? -->
 
-### Expected Behaviour
-<!-- What should happen -->
+### Expected vs Actual
+- **Expected:** <!-- What should happen? -->
+- **Actual:** <!-- What happened instead? -->
+
+### Severity
+<!-- Select one: P0, P1, P2, P3 -->
+- [ ] P0
+- [ ] P1
+- [ ] P2
+- [ ] P3
 
 ### Acceptance Criteria
-- [ ] Fix verified
-- [ ] Automated regression test added
+- [ ] <!-- State an observable condition that confirms the fix. -->
